@@ -1,0 +1,19 @@
+name: MailTwoStep
+version: 1.0
+api-version: 1.16
+main: com.dawndream.MailTwoStep.main
+author: DawnDreamin
+commands:
+  2set:
+    usage: "/[command] true"
+    description: "awa"
+    aliases:
+      - "2s"
+
+  2login:
+    usage: "/[command] code"
+    description: "login!!!"
+    aliases:
+      - "2l"
+      - "l2"
+      - "2"

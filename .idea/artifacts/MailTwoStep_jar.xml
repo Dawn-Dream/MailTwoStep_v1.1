@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MailTwoStep:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MailTwoStep_jar</output-path>
+    <root id="archive" name="MailTwoStep.jar">
+      <element id="module-output" name="MailTwoStep" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.mail.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
